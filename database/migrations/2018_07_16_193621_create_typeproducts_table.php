@@ -15,7 +15,7 @@ class CreateTypeproductsTable extends Migration
     {
         Schema::create('typeproducts', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string("name");
+            $table->string("name", 100);
             $table->timestamps();
         });
     }

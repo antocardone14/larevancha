@@ -17,9 +17,9 @@ class CreateProductsTable extends Migration
             $table->bigIncrements('id');
             $table->string("name", 50);
             $table->string("description", 250);
-            $table->string("image",150);
+            $table->string("image",255);
             $table->integer("price", 6,2);
-            $table->integer("rating",1,1);
+            $table->integer("rating",1,1)->default(0,0);   // para que sirve el default?
             $table->string("category_id");
             $table->foreign('category_id')->references('id')->on('categories');
             $table->string("state_id");
