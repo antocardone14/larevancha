@@ -5,8 +5,8 @@
     <title>Agregar producto</title>
   </head>
   <body>
-    <form class="" action="" method="post">
-
+    <form class="" action="/agregarProducto" method="post">
+          @csrf
       <label for="">Nombre:</label>
       <input type="text" name="name" value="">
 
@@ -18,6 +18,8 @@
 
       <label for="">Imagen:</label>
       <input type="file" name="image" value="">
+
+      <button type="submit" name="button">Ingresar</button>
 
     </form>
   </body>

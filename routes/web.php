@@ -11,6 +11,18 @@
 |
 */
 
-Route::get('/home', function () {
-    return view('home');
+//Route::get('/home', function () {
+//    return view('home');
+//});
+
+
+
+//Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/agregarProducto', function () {
+    return view('agregarProducto');
 });
+
+Route::post('/agregarProducto', 'ProductsController@agregarProducto');
+
+Auth::routes();
