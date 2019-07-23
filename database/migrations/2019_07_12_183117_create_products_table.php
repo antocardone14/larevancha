@@ -18,14 +18,14 @@ class CreateProductsTable extends Migration
             $table->string("name", 50);
             $table->string("description", 250);
             $table->string("image",255);
-            $table->integer("price", 6,2);
-            $table->integer("rating",1,1)->default(0,0);   // para que sirve el default?
-            $table->string("category_id");
+            $table->integer("price");
+            //$table->integer("rating",1,1)->default(0,0);   // ESTO TIRA ERROR
+            $table->unsignedBigInteger("category_id")->nullable();
             $table->foreign('category_id')->references('id')->on('categories');
-            $table->string("state_id");
-            $table->string("state_id")->references("id")->on("states");
-            $table->string("typeproduct_id");
-            $table->string("typeproduct_id")->references("id")->on("typeproducts");
+            $table->unsignedBigInteger("state_id")->nullable();
+            $table->foreign("state_id")->references("id")->on("states");
+            $table->unsignedBigInteger("typeproduct_id")->nullable();
+            $table->foreign("typeproduct_id")->references("id")->on("typeproducts");
             $table->timestamps();
         });
     }

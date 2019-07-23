@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Agregar producto</title>
   </head>
   <body>
     <form class="" action="" method="post">
@@ -14,7 +14,10 @@
       <input type="text" name="description" value="">
 
       <label for="">Precio:</label>
-      <input type="text" name="price" value="">
+      <input type="number" name="price" value="">
+
+      <label for="">Imagen:</label>
+      <input type="file" name="image" value="">
 
     </form>
   </body>
