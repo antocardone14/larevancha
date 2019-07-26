@@ -22,5 +22,7 @@ class ProductsController extends Controller
     //    "min" => "El campo :attribute tiene un minimo de :min caracteres",
     //    "integer" => "El campo :attribute debe ser un numero"
     //  ]
+
+    // $this->validate($req, $reglas,$mensajes);
     }
 }
