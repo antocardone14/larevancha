@@ -15,7 +15,10 @@ Route::get('/home', function () {
    return view('home');
 });
 
-
+Route::get('/test', function () {
+   $cart = \App\Cart::find(1);
+   dd($cart->productos[0]->image);
+});
 
 //Route::get('/home', 'HomeController@index')->name('home');
 

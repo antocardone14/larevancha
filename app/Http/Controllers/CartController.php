@@ -82,4 +82,10 @@ class CartController extends Controller
     {
         //
     }
+
+    public function(){
+      $id_Usuario_logueqado = \Auth::user()->id;
+      $carrito = \App\Cart::where('user_id',$id_Usuario_logueado});}
+      $productos = $carrito->productos();
+    }
 }

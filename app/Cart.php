@@ -13,7 +13,7 @@ class Cart extends Model
     }
 
     public function productos(){
-      return $this->hasMany("App\Product", "product_id");
+      return $this->hasMany("App\Product", "id");
     }
 
 }

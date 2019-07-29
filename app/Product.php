@@ -19,4 +19,11 @@ class Product extends Model
   public function Typeproduct(){
     return $this->belongsTo("App\Typeproduct", "typeproduct_id");
   }
+
+  public function precio(){
+    $precio = $this->price;
+    if($precio > 100){
+      return "es caro";
+    }
+  }
 }
