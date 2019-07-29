@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(CategoriesSeeder::class);
         $this->call(StatesSeeder::class);
-        $this->call(TypesProduct::class);
+        $this->call(TypeProductsSeeder::class);
         $this->call(UsersSeeder::class);
         // factory(\App\User::class, 2)->create();
         $this->call(ProductsSeeder::class);

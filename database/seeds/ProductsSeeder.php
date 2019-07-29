@@ -17,8 +17,8 @@ class ProductsSeeder extends Seeder
                 "price" => "1000",
                 "image" => "41-Brocha 001.jpg",
                 "category_id" => "4",
-                "state_id" => "2",
                 'typeproduct_id' => '1',
+                "state_id" => "2",
               ],
               [
                 "name" => "Rubor Cremoso Rosa",
@@ -26,7 +26,7 @@ class ProductsSeeder extends Seeder
                 "price" => "1300",
                 "image" => "81-Rubor Cremoso Rosa.jpg",
                 "category_id" => "1",
-                'typeproduct_id' => '6',
+                'typeproduct_id' => '2',
                 "state_id" => "2",
               ],
               [
@@ -35,7 +35,7 @@ class ProductsSeeder extends Seeder
                 "price" => "1400",
                 "image" => "68-Polvo Translucido.jpg",
                 "category_id" => "1",
-                'typeproduct_id' => '5',
+                'typeproduct_id' => '3',
                 "state_id" => "2",
               ],
               [
@@ -44,7 +44,7 @@ class ProductsSeeder extends Seeder
                 "price" => "1100",
                 "image" => "73-Gloss Coral.jpg",
                 "category_id" => "2",
-                'typeproduct_id' => '2',
+                'typeproduct_id' => '4',
                 "state_id" => "1",
               ],
               [
@@ -53,7 +53,7 @@ class ProductsSeeder extends Seeder
                 "price" => "1300",
                 "image" => "87-Iluminador Duo.jpg",
                 "category_id" => "1",
-                'typeproduct_id' => '8',
+                'typeproduct_id' => '5',
                 "state_id" => "1",
               ],
               [
@@ -62,7 +62,7 @@ class ProductsSeeder extends Seeder
                 "price" => "1200",
                 "image" => "95-Labial Matte.jpg",
                 "category_id" => "2",
-                'typeproduct_id' => '3',
+                'typeproduct_id' => '6',
                 "state_id" => "1",
               ],
               [
@@ -80,7 +80,7 @@ class ProductsSeeder extends Seeder
                 "price" => "1900",
                 "image" => "35-Base Matte 001.png",
                 "category_id" => "1",
-                'typeproduct_id' => '4',
+                'typeproduct_id' => '8',
                 "state_id" => "1",
               ],
               [
@@ -89,7 +89,7 @@ class ProductsSeeder extends Seeder
                 "price" => "1200",
                 "image" => "11-Labial Matte Azul.png",
                 "category_id" => "2",
-                'typeproduct_id' => '3',
+                'typeproduct_id' => '9',
                 "state_id" => "2",
               ],
               [
@@ -98,7 +98,7 @@ class ProductsSeeder extends Seeder
                 "price" => "1100",
                 "image" => "81-Gloss Rosa.png",
                 "category_id" => "2",
-                'typeproduct_id' => '2',
+                'typeproduct_id' => '10',
                 "state_id" => "2",
               ],
             ];

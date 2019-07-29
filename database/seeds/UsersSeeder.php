@@ -14,14 +14,14 @@ class UsersSeeder extends Seeder
         [
           'name'=> 'Admin',
           'surname'=>'FB',
-          'email'=>'admin@fancybeauty.com',
+          'email'=>'admin1@fancybeauty.com',
           'password'=>'123456',
           // 'rol'=>'100'
         ],
         [
           'name'=> 'Sabrina',
           'surname'=>'Zalio',
-          'email'=>'sabrizalio@gmail.com',
+          'email'=>'sabrizalio1@gmail.com',
           'password'=>'123456',
           // 'rol'=>'100'                     //que es rol?
         ]

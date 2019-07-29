@@ -19,10 +19,19 @@ Route::get('/home', function () {
 
 //Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/agregarProducto', function () {
-    return view('agregarProducto');
-});
+Route::get('/agregarProducto', 'ProductsController@crear');
 
 Route::post('/agregarProducto', 'ProductsController@agregarProducto');
 
+Route::get('/borrarProducto', 'ProductsController@borrarProducto');
+
+Route::post('/borrarProducto', 'ProductsController@borrarProducto');
+
+Route::get('/misProductos', 'ProductsController@misProductos');
+
+Route::get('/index', 'ProductsController@misProductos');
+
+Route::get('/inicio', function () {
+   return view('inicio');
+});
 Auth::routes();

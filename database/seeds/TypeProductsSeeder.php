@@ -11,7 +11,7 @@ class TypeProductsSeeder extends Seeder
      */
     public function run()
     {
-      $infos = ["brocha", "espejo", "labial", "paleta de sombras", "gloss"];
+      $infos = ["brocha", "espejo", "labial", "paleta de sombras", "gloss","polvo translucido","base","duo de sombras","iluminado","polvo bronceador"];
 
     foreach ($infos as $info) {
       DB::table("typeproducts")->insert([
