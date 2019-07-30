@@ -1,13 +1,24 @@
 body {
-
-  background-color: pink;
+  margin:0;
+  padding:0;
 }
 header{
-  background-color: pink;
+  background-color:pink;
   width: 160%;
+}
+a{
+   text-decoration:none;
+   list-style-type: none;
 }
 
 footer{
-
-background-color: pink;
+background-color:pink;
+}
+.menu{
+  display:flex;
+  justify-content: space-between;
+}
+.logo{
+  display:flex;
+  justify-content: center;
 }
